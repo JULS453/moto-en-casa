@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Moto en Casa | Inscripción</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <header class="principal">
+    <div class="contenedor">
+      <a href="index.html" class="logo">Moto<span>en</span>Casa</a>
+      <nav>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="contenidos.html">Contenidos</a></li>
+          <li><a href="recursos.html">Recursos</a></li>
+          <li><a href="inscripcion.html" class="activo">Inscripción</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section>
+      <div class="contenedor">
+        <header class="titulo-seccion">
+          <h2>Únete a la Comunidad</h2>
+          <p>Un pago único para acceder a todo el contenido y al foro de resolución de dudas con el equipo docente.</p>
+        </header>
+
+        <div class="inscripcion">
+          <aside class="precio">
+            <h3 style="font-size: 1.5rem; margin-bottom: 10px;">Acceso Completo</h3>
+            <p class="cifra">49 € <small style="font-size: 1rem; font-weight: normal; color: #9ca3af;">/ pago único</small></p>
+            <ul style="list-style: none; margin-top: 20px; display: grid; gap: 12px;">
+              <li>✔️ Acceso a los módulos en vídeo.</li>
+              <li>✔️ Checklist descargables para el garaje.</li>
+              <li>✔️ Cuestionarios de autoevaluación.</li>
+              <li>✔️ Acceso al foro de dudas.</li>
+            </ul>
+          </aside>
+
+          <form class="tarjeta">
+            <h3 style="margin-bottom: 15px; color: var(--naranja-oscuro);">Reserva tu plaza</h3>
+            <div>
+              <label>Nombre y Apellidos</label>
+              <input type="text" required placeholder="Ej: Laura Martínez">
+            </div>
+            <div>
+              <label>Correo Electrónico</label>
+              <input type="email" required placeholder="tu@email.com">
+            </div>
+            <div>
+              <label>¿Qué modelo de moto tienes?</label>
+              <input type="text" placeholder="Ej: Honda CB500X">
+            </div>
+            <div class="check-legal">
+              <input type="checkbox" required id="priv">
+              <label for="priv" style="font-weight: normal;">Acepto la política de privacidad y protección de datos para la gestión académica del curso.</label>
+            </div>
+            <button type="button" class="boton primario" style="margin-top: 10px;" onclick="alert('Datos guardados. ¡Nos vemos en clase!')">Formalizar Inscripción</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="gris">
+      <div class="contenedor" style="max-width: 820px; margin: 0 auto;">
+        <header class="titulo-seccion">
+          <h2>Preguntas Frecuentes (FAQ)</h2>
+        </header>
+        <details>
+          <summary>¿Qué pasa si me atasco a mitad de un proceso?</summary>
+          <p>El curso incluye acceso a una comunidad en el foro. Puedes subir una foto de tu problema y los formadores (Juan Pablo, Martín o Julen) te daremos feedback para ayudarte a continuar de forma segura.</p>
+        </details>
+        <details>
+          <summary>¿Necesito conocimientos previos de mecánica?</summary>
+          <p>En absoluto. El curso asume que empiezas desde cero, partiendo de los fundamentos más básicos (qué es cada llave y cómo usarla).</p>
+        </details>
+        <details>
+          <summary>¿Se emitirá certificado oficial?</summary>
+          <p>Se trata de formación no reglada diseñada para el aprendizaje práctico y personal. Se emitirá un certificado de aprovechamiento al superar los test de asimilación, pero no es un título oficial de taller.</p>
+        </details>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="contenedor"><p>&copy; 2026 Moto en Casa · Proyecto Formativo eLearning</p></div>
+  </footer>
+</body>
+</html>
